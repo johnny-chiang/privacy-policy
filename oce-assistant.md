@@ -68,7 +68,7 @@ The extension does **not** share any data with third parties. All network reques
 |---|---|
 | `storage` | Save user preferences (product names, visit count) and temporary task state |
 | `activeTab` + `tabs` | Detect when the active tab is an OCE Lightning page; send cancellation signals to the content script by tab ID |
-| `scripting` | Inject automation scripts into the Salesforce page (MAIN world) to access the Aura framework and call its API |
+| `scripting` | Inject automation scripts into the Salesforce page (MAIN world) to access the Aura framework and call its API. The injected scripts only interact with Salesforce's internal framework to perform actions initiated by the user and do not exfiltrate any data. |
 | `sidePanel` | Display the extension's control panel in Chrome's side panel UI |
 | Host: `https://*.lightning.force.com/*` | Limit the extension's access strictly to Salesforce Lightning domains |
 
