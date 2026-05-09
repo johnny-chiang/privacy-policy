@@ -1,8 +1,8 @@
-# Privacy Policy – OCE Assistant
+# Privacy Policy – CRM Flow Sync
 
 **Effective date: 2026-05-01**
 
-OCE Assistant is a Chrome extension that automates bulk visit creation and submission in Salesforce OCE Lightning. This policy explains what data the extension accesses, how it is used, and what it does not do.
+CRM Flow Sync is a Chrome extension that automates bulk visit creation and submission in Salesforce OCE Lightning. This policy explains what data the extension accesses, how it is used, and what it does not do.
 
 ---
 
@@ -31,7 +31,8 @@ This data is processed entirely within your browser and sent only back to your o
 |---|---|---|---|
 | `chrome.storage.local` | `productNames` | Comma-separated product names (user preference) | Yes |
 | `chrome.storage.local` | `visitCount` | Number of visits to create per day (user preference) | Yes |
-| `chrome.storage.session` | `task` | Task status, doctor names, and visit record IDs during an active task | No — cleared when the task ends or the browser closes |
+| `chrome.storage.session` | `task` | Task type, status, and result details during an active task | No — cleared when the task ends or the browser closes |
+| `chrome.storage.session` | `taskProgress` | Progress counter (current, total, label) during an active task | No — cleared when the task ends or the browser closes |
 
 Persistently stored data consists only of your own product name and visit count preferences. No personal identifiers are stored persistently.
 
