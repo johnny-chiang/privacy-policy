@@ -2,7 +2,7 @@
 
 **Effective date: 2026-05-01**
 
-CRM Flow Sync is a Chrome extension that automates bulk visit creation and submission in Salesforce OCE Lightning. This policy explains what data the extension accesses, how it is used, and what it does not do.
+CRM Flow Sync is a productivity utility designed to synchronize and organize CRM data entries to optimize professional workflows. Our primary goal is to enhance data consistency and user efficiency within CRM environments by streamlining manual input processes and providing a unified interface for data management.
 
 ---
 
